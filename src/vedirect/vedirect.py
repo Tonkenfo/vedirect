@@ -209,7 +209,7 @@ class VEDirect:
         'MPPT': ''
     }
 
-    types = {'V': int, 'VS': int, 'VM': int, 'DM': int,
+    types = {'MON': int, 'V': int, 'VS': int, 'VM': int, 'DM': int,
              'VPV': int, 'PPV': int, 'I': int, 'IL': int,
              'LOAD': str, 'T': int, 'P': int, 'CE': int,
              'SOC': int, 'TTG': int, 'Alarm': str, 'Relay': str,
